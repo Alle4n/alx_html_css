@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: SansPro;
+    src: url(Fonts/SourceSansPro-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: SansPro;
+    src: url(Fonts/SourceSansPro-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SansPro;
+    src: url(Fonts/SourceSansPro-Light.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+body {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 1093px;
+    font-family: SansPro;
+    line-height: 1.5;
+}
+img {
+    max-width: 100%; /* Prevents images from overflowing */
+    display: block; /* Prevents small space below images */
+  }
+button {
+    background-color: #C271FF;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+header {
+    font-size: 12px;
+    margin: 20px;
+    border: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.register {
+    text-align: center;
+}
+.register h1 {
+    color: #FFFFFF;
+    font-size: 120px;
+}
+.register span {
+    display: inline-block;
+    margin-right: 20px; 
+    color: #ffffff;
+    font-weight: bold;
+}
+.register button:hover {
+    background-color: #440b69;
+}
+.purple-header {
+    color:#C271FF;
+    font-weight: bold;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+.pros-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    );
+    gap: 2rem;
+    text-align: center;
+    just change;
+    position: relative;
+    padding: 100px 250px 250px 100px;
+    /* position: relative;
+    top: 50%;
+    transform: translateY(30%); */
+    color: #ffffff;
+}
+.pros-grid img {
+    border-radius: 50%;
+    margin: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.pros-grid p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+}
+.testimonials {
+    display: flex;
+    gap: 2rem;
+    background-color: #C271FF;
+    color: #ffffff;
+    padding: 60px 0;
+    align-items: center;
+    width: 1440px;
+    height: 392px;
+    top: 1093px;
+    left: -1px;
+}
+.testimonials .container {
+    margin-left: 200px;
+    margin-left: 200px;
+  }
+  
+.testimonials p {
+    font-style: italic;
+}
+#black-header {
+    font-style: normal;
+    color: black;
+}
+.tutorials {
+    background-color: #FFFFFF;
+    padding: 60px, 0;
+    padding-top: 50px;
+}
+.tutorials .tutorials-grid {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.tutorials .tutorial {
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+.tutorials .tutorial img {
+    margin-bottom: 1rem;
+}
+.tutorials .tutorial .instructor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.tutorials .tutorial .instructor img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.tutorials .tutorial .unchecked {
+    color: #D8D8D8;
+}
+.tutorials .tutorial .checked {
+    color: #C271FF;
+}
+.tutorials .tutorial h4, .minutes {
+    color: #C271FF;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .play {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tutorials .tutorial .time {
+    display: flex;
+    justify-content: space-between;        
+}
+.tutorials .container .tutorials-grid {
+    padding: 20px;
+    margin: 20px;
+    border: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.membership {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding: 20px, 0;
+    padding-top: 50px;
+    width: 1440px;
+    height: 502px;
+    gap: 0px;
+    opacity: 0px;
+}
+.membership-grid {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6rem;
+}
+.dot {
+    display: block;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.dot img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.faq {
+    background-color: #FFFFFF;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.faq h2 {
+    color: #071629;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+.faq h3 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: bold;
+  }
+.faq p {
+    color: #07162980;
+    font-size: 14px;
+    font-weight: lighter;
+  }  
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 6rem; /* Add some space between items */
+    margin-top: 2rem;
+  }
+  .faq-grid div {
+    padding-bottom: 2rem; /* Add padding for spacing */
+  }
+footer {
+    background-color: #071629;
+    font-size: 12px;
+    padding: 20px;
+}
+.f2 {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+  }
+  
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    background-size: auto;
+    border-radius: 50%;
+    color: #071629;
+  }
+.f1 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
