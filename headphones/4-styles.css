@@ -1,0 +1,39 @@
+footer {
+    background-color: #071629;
+    font-size: 12px;
+    padding: 20px;
+}
+.f2 {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+  }
+  
+.fa {
+    color: #071629;
+    padding: 10px 10px;
+    border-radius: 50%;
+    width: 15px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    background-size: 0.1rem
+  }
+.f1 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.logo {
+    width: 250px;
+    height: 50px;
+}
+.menu {
+  display: none;
+}

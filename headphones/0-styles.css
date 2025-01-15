@@ -18,10 +18,7 @@
     font-style: normal;
 }
 body {
-    background-image: url(images/headphones_hero_1.jpg);
-    background-size: 1400px 800px;
-    background-repeat: no-repeat;
-    font-family: SansPro;
+    font-family: 'SansPro', sans-serif;
     line-height: 1.5;
 }
 img {
@@ -31,11 +28,11 @@ img {
 header {
     font-size: 12px;
     background-color: transparent;
-    margin: 20px;
     border: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
     padding-bottom: 270px;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
 }
 header ul li a {
     text-decoration: none;
@@ -55,6 +52,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 280px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin: 0 20px;
 }
 h1 {
     font-size: 32px;
@@ -86,7 +88,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     margin: 0;
 }
 .multi-line-paragraph {
@@ -95,4 +96,13 @@ button {
     font-weight: normal;
     font-size: 16px;
     white-space: pre-line; /* This will preserve line breaks in the HTML */
+  }
+  @media (max-width: 480px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1024px) {
+
   }

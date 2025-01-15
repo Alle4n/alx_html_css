@@ -1,0 +1,118 @@
+button:hover {
+    opacity: 0.9;
+}
+.page-icons div:hover {
+    transform: scale(1.1); 
+}
+.pentagon:hover {
+    transform: rotate(15deg);
+@media (max-width: 800px) {
+    .page-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .pentagons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 h3 button p {
+        margin-top: 250px;
+    }
+    
+    .menu {
+        display: flex;
+    }
+
+    nav {
+        width: 100%;7
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    nav ul {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px; 
+        padding: 0; 
+    }
+    
+    nav ul li {
+        margin: 0; 
+    }
+
+    nav ul li:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .mobile {
+        width: 100%;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #menuItems {
+        display: none; 
+    }
+
+    #menuItems.show {
+        display: block; 
+    }
+
+    .page-icons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 96px;
+        margin-top: 96px;
+    }
+
+    .pentagons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding-bottom: 60px;
+    }
+    .pentagon {
+        color: #FFFFFF;
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .pentagon img {
+        height: 170px;
+        width: 190px;
+    
+    }
+    .pentagon-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    .multi-line-paragraph {
+        width: 305px;
+    }
+
+    .f1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
